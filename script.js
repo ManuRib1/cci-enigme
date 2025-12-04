@@ -49,7 +49,7 @@ function checkEnigma2() {
 function checkEnigma3() {
   const value = document.getElementById("e3").value;
 
-  if (value === "1337") {
+  if (value === "129142124") {
     window.location.href = "success.html";
   } else {    
     alert("Code incorrect !");
@@ -68,7 +68,7 @@ function wrongAnswer() {
 }
 
 
-function typeConsole(text, speed = 30){
+function typeConsole(text, speed = 5){
   let i = 0;
   const box = document.getElementById("console");
   const interval = setInterval(() => {

@@ -10,6 +10,12 @@
 <body>
 
 <div class="container">
+    <div class="progress-bar">
+  <div class="progress" id="progress"></div>
+</div>
+
+    <div id="timer">⏳ 30:00</div>
+
   <h2>1️⃣ Attirer le directeur</h2>
   <img src="img/lolo.jpg" alt="Directeur">
   <p>Quel stratagème pourrait faire quitter son bureau au directeur ?</p>
@@ -19,6 +25,9 @@
   <input id="e1" type="text" placeholder="Ta ruse...">
   <button onclick="checkEnigma1()">Valider</button>
 </div>
+
+<script> document.getElementById("progress").style.width = "33%"; </script>
+
 
 </body>
 </html>

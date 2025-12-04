@@ -9,6 +9,12 @@
 <body>
 
 <div class="container">
+    <div class="progress-bar">
+  <div class="progress" id="progress"></div>
+</div>
+
+    <div id="timer">⏳ 30:00</div>
+
   <h2>2️⃣ Trouver le mot de passe Wi-Fi</h2>
   <img src="img/wifi.png" alt="WiFi">
 
@@ -18,6 +24,9 @@
   <input id="e2" type="text" placeholder="Mot de passe...">
   <button onclick="checkEnigma2()">Déchiffrer</button>
 </div>
+
+<script> document.getElementById("progress").style.width = "66%"; </script>
+
 
 </body>
 </html>

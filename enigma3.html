@@ -9,6 +9,12 @@
 <body>
 
 <div class="container">
+    <div class="progress-bar">
+  <div class="progress" id="progress"></div>
+</div>
+
+    <div id="timer">⏳ 30:00</div>
+
   <h2>3️⃣ Pirater la caméra</h2>
   <img src="img/camera.jpg" alt="Caméra">
 
@@ -18,6 +24,9 @@
   <input id="e3" type="number" placeholder="Code admin">
   <button onclick="checkEnigma3()">Pirater</button>
 </div>
+
+<script> document.getElementById("progress").style.width = "100%"; </script>
+
 
 </body>
 </html>
